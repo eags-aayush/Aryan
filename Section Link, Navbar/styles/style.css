@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  padding: 10px;
+  border: 2px solid cyan;
+  margin-bottom: 15px;
+  position: sticky;
+  background-color: white;
+  top: 0px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div{
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+section{
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 15px;
+}
