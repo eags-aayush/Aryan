@@ -1,0 +1,42 @@
+.main-section{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    height: 100%;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    padding-right: 63%;
+}
+
+h{
+    font-size: 40px;
+    color: #22222F;
+    font-weight: 500;
+}
+
+p{
+    color: #606f7b;
+    font-size: 19.2px;
+    margin: 9.6px 0px 19.2px;
+}
+
+a{
+    text-decoration: none;
+    color: #645df9;
+}
+
+#bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom>span:last-child{
+    font-weight: bold;
+    color: #22222F;
+}
