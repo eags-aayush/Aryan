@@ -29,7 +29,7 @@
     text-align: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -37,13 +37,10 @@
     color: #606F7B;
     font-size: 14px;
     padding: 0 30px;
-    background-color: #EAEEF5;
-    z-index: 10;
 }
 
 .line{
     background-color: #606f7b25;
     height: 1px;
     width: 25%;
-    position: absolute;
 }
