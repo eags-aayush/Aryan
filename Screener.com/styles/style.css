@@ -10,6 +10,6 @@ body {
     background-color: hsla(218, 35%, 94%, 1);
     background-color: linear-gradient(180deg, hsla(218, 35%, 94%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
     color: #606F7B;
-    height: 60vh;
+    height: 100vh;
 }
 
