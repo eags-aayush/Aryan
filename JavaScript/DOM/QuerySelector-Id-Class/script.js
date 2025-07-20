@@ -6,3 +6,7 @@ console.log(para1)
 
 let para2 = document.getElementsByClassName("paraclass")
 console.log(para2)  
+
+document.querySelectorAll("p").forEach(element => {
+    element.innerText = Math.random()
+});
