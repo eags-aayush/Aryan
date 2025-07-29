@@ -36,3 +36,9 @@
     width: 20%;
     background-color: magenta;
 }
+.x{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
