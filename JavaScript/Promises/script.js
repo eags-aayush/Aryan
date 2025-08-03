@@ -1,12 +1,15 @@
 let promise = new Promise((resolve, reject) => {
 
-    setTimeout(() => {
+    let a = 12
+    if (a == 12) {
+        resolve("Success")
+    }
+    else {
+        reject("Failed")
+    }
 
-        if(true)
-            resolve("Data is collected!")
-        else
-            reject("Data is not collected!")
-
-    }, 3000)
-
+}).then((message) => {
+    console.log("This is in the then block: " + message);
+}).catch((message) => {
+    console.log("This is in the catch block: " + message);
 })
