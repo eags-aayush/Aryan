@@ -1,5 +1,5 @@
 
-    let span1 = document.querySelector("span")
+let span1 = document.querySelector("span")
 let data = null
 let asyncFunc = async () => {
     let response = await fetch('https://www.thecolorapi.com/scheme?hex=3bf7eb&mode=monochrome')
