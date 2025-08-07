@@ -1,4 +1,3 @@
-
 let span1 = document.querySelector("span")
 let data = null
 let asyncFunc = async () => {
